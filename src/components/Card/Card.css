@@ -12,8 +12,7 @@
 
 .card__item {
   max-width: 350px;
-  width: 100%;
-  height: 284px;
+  width: 100%; 
   padding: 5px;
   border: 4px solid transparent;
   cursor: pointer;
@@ -24,8 +23,7 @@
 }
 
 .card__inner {
-  background-color: #ffffff;
-  height: 265px;
+  background-color: #ffffff;  
 }
 
 .text__wrapper {
