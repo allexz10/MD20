@@ -1,0 +1,38 @@
+
+.card__wrapper {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  grid-template-columns: repeat(3, 317px);
+  margin-bottom: 60px;
+}
+
+.card__item {
+  max-width: 350px;
+  width: 100%;
+  height: 284px;
+  padding: 5px;
+  border: 4px solid transparent;
+  cursor: pointer;
+}
+
+.card__item:hover {
+  border: 4px solid #f079a1;
+}
+
+.card__inner {
+  background-color: #ffffff;
+  height: 265px;
+}
+
+.text__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Kaushan Script', cursive;  
+}
